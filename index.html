@@ -1,29 +1,68 @@
-<title>Home</title>
-</head>
-<hr>
+<!DOCTYPE html>
+<html>
+<head>
 
-<body>
+    <style>
+        #divContainer 
+        {
+            text-align: left;
+        }
+    
+        .redText 
+        {
+            color: red;
+            background-color: bisque;
+        }
+    
+        .redText:hover 
+        {
+            color: blue;
+        }
+    
+        input 
+        {
+            text-align: center;
+        }
+    
+        #btnLogin:hover
+        {
+            
+            cursor: pointer;
+            font-size: large;
+            color: aqua;
+        }
+    
+    </style>
+    
 
-    <h1>Welcome to my Website!</h1>
-
-    <div>
-
-        <div>
-
-            <input type="text" placeholder="Username"/>
+    <title>Home</title>
+    </head>
+    <hr>
+    
+    <body style="background-color: burlywood;">
+    
+        <h1 style="text-align:center;" class="redText">Welcome to my Website!</h1>
+    
+        <div style="text-align: center;">
+    
+            <div style="margin-bottom: 1rem;">
+    
+                <input type="text" placeholder="Username" class="redText"/>
+            </div>
+    
+        <div style="margin-bottom: 1rem;">
+    
+                <input type="password" placeholder="Password" class="redText"/>
         </div>
+    
+        <div>
+            <button style="color: sandybrown;">Login</button>
+            <button style="color: rgb(197, 94, 47);">Register</button>
+        </div>
+        <div>
+        </div>
+        </div>
+        <hr>
 
-    <div>
-
-            <input type="password" placeholder="Password"/>
-    </div>
-
-    <div>
-        <button>Login</button>
-        <a href="./register.html"><button>Register</button></a>
-    </div>
-    <div>
-    </div>
-    </div>
-    </body>
+</body>
 </html>
