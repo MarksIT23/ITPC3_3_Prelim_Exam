@@ -2,50 +2,93 @@
 <html>
 
 
+<style>
+    #divContainer 
+    {
+        text-align: center;
+    }
+
+    .redText 
+    {
+        color: rgba(18, 156, 20, 0.514);
+        background-color: pink;
+    }
+
+    .redText:hover 
+    {
+        color: rgba(146, 177, 9, 0.525);
+    }
+
+    input 
+    {
+        text-align: center;
+    }
+
+    #Register:hover
+    {
+        size: 0pt;
+        cursor: pointer;
+        font-size: large;
+        color: aqua;
+    }
+
+    #Login:hover
+    {
+        size: 0pt;
+        cursor: pointer;
+        font-size: large;
+        color: red;
+    }
+
+</style>
+
 <head>
     <title>Register</title>
 </head>
 
-<body>
+<body style="background-color: skyblue;">
+    <hr>
 
-    <h1>Register</h1>
+    <h1 style="text-align:center;">Register</h1>
 
-    <div>
+    <div style="text-align: center;">
 
-        <div>
+        <div style="margin-bottom: 1rem;">
 
-            <input type="text" placeholder="Username"/>
+            <input type="text" placeholder="Username" class="redText"/>
         </div>
 
-    <div>
+    <div style="margin-bottom: 1rem;">
 
-            <input type="password" placeholder="Password"/>
+            <input type="password" placeholder="Password" class="redText"/>
     </div>
 
+    <div style="margin-bottom: 1rem;">
+
+        <input type="password" placeholder="Confirm Password" class="redText"/>
+</div>
+
+<div style="margin-bottom: 1rem;">
+
+    <input type="text" placeholder="First Name" class="redText"/>
+</div>
+
+<div style="margin-bottom: 1rem;">
+
+    <input type="text" placeholder="Last Name" class="redText"/>
+</div>
+
+
+
     <div>
-
-        <input type="password" placeholder="Confirm Password"/>
-</div>
-
-<div>
-
-    <input type="text" placeholder="First Name"/>
-</div>
-
-<div>
-
-    <input type="text" placeholder="Last Name"/>
-</div>
-
-
-
-    <div>
-        <button id="Register">Register</button>
-        <button id="Cancel">Cancel</button>
+        <button id="Register" style="color: rgb(197, 94, 47);">Register</button>
+        <button id="Cancel" style="color: rgb(197, 94, 47);">Cancel</button>
     </div>
 
 
     </div>
+
+    <hr>
 
 </body>
 </html>
