@@ -56,13 +56,24 @@
         </div>
     
         <div>
-            <button style="color: sandybrown;">Login</button>
-            <button style="color: rgb(197, 94, 47);">Register</button>
+             <button id="btnLogin" style="color: sandybrown;">Login</button> 
+             <a href="./register.html"><button style="color: rgb(197, 94, 47);">Register</button></a>
         </div>
         <div>
         </div>
         </div>
         <hr>
+
+        <script> 
+            //JavaScript
+            console.log("Hello World");
+        
+            let buttonLogin = document.querySelector('#btnLogin');
+            buttonLogin.onclick = function() 
+            {
+                alert("Successfully Logged in!")
+            };
+        </script>
 
 </body>
 </html>
