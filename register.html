@@ -81,14 +81,25 @@
 
 
     <div>
-        <button id="Register" style="color: rgb(197, 94, 47);">Register</button>
-        <button id="Cancel" style="color: rgb(197, 94, 47);">Cancel</button>
+        <a href="index.html"><button id="btnRegister" style="color: rgb(197, 94, 47);">Register</button>
+        <button id="Cancel" style="color: rgb(197, 94, 47);">Cancel</button></a>
     </div>
 
 
     </div>
 
     <hr>
+
+    <script> 
+        //JavaScript
+        console.log("Hello World");
+    
+        let buttonLogin = document.querySelector('#btnRegister');
+        buttonLogin.onclick = function() 
+        {
+            alert("Registration Succesful")
+        };
+    </script>
 
 </body>
 </html>
